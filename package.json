@@ -1,0 +1,16 @@
+{
+  "name": "digitaltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests/findCrushListTest.js"
+  },
+  "author": "Arthur Vasque",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "should": "^13.2.3"
+  }
+}
